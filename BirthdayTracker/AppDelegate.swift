@@ -1,12 +1,6 @@
-//
-//  AppDelegate.swift
-//  BirthdayTracker
-//
-//  Created by Алексей Якуба on 08.12.2020.
-//
-
 import UIKit
 import CoreData
+import UserNotifications
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,7 +8,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        let center = UNUserNotificationCenter.current()
+        center.requestAuthorization(options: [.alert, .sound], completionHandler: {(granted, error) in
+            if granted {
+                print("Acces to recieve notifications!")
+            } else {
+                print("Acces denied to recieve notifications!")
+            }
+        })
         return true
     }
 

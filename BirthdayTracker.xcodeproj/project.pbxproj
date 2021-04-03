@@ -7,25 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9303D31925820E7500B16E26 /* BirthdaysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9303D31825820E7500B16E26 /* BirthdaysTableViewController.swift */; };
 		93715BD8257F9B64005A1151 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93715BD7257F9B64005A1151 /* AppDelegate.swift */; };
 		93715BDA257F9B64005A1151 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93715BD9257F9B64005A1151 /* SceneDelegate.swift */; };
-		93715BDC257F9B64005A1151 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93715BDB257F9B64005A1151 /* ViewController.swift */; };
+		93715BDC257F9B64005A1151 /* AddBirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93715BDB257F9B64005A1151 /* AddBirthdayViewController.swift */; };
 		93715BDF257F9B64005A1151 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93715BDD257F9B64005A1151 /* Main.storyboard */; };
-		93715BE2257F9B64005A1151 /* BirthdayTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93715BE0257F9B64005A1151 /* BirthdayTracker.xcdatamodeld */; };
 		93715BE4257F9B66005A1151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93715BE3257F9B66005A1151 /* Assets.xcassets */; };
 		93715BE7257F9B66005A1151 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93715BE5257F9B66005A1151 /* LaunchScreen.storyboard */; };
+		93A2ABA72582661D00D4847E /* BirthdayTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93A2ABA52582661D00D4847E /* BirthdayTracker.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9303D31825820E7500B16E26 /* BirthdaysTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdaysTableViewController.swift; sourceTree = "<group>"; };
 		93715BD4257F9B64005A1151 /* BirthdayTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirthdayTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93715BD7257F9B64005A1151 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93715BD9257F9B64005A1151 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		93715BDB257F9B64005A1151 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		93715BDB257F9B64005A1151 /* AddBirthdayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBirthdayViewController.swift; sourceTree = "<group>"; };
 		93715BDE257F9B64005A1151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		93715BE1257F9B64005A1151 /* BirthdayTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BirthdayTracker.xcdatamodel; sourceTree = "<group>"; };
 		93715BE3257F9B66005A1151 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93715BE6257F9B66005A1151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93715BE8257F9B66005A1151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A2ABA62582661D00D4847E /* BirthdayTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BirthdayTracker.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +62,13 @@
 			children = (
 				93715BD7257F9B64005A1151 /* AppDelegate.swift */,
 				93715BD9257F9B64005A1151 /* SceneDelegate.swift */,
-				93715BDB257F9B64005A1151 /* ViewController.swift */,
+				93715BDB257F9B64005A1151 /* AddBirthdayViewController.swift */,
 				93715BDD257F9B64005A1151 /* Main.storyboard */,
 				93715BE3257F9B66005A1151 /* Assets.xcassets */,
 				93715BE5257F9B66005A1151 /* LaunchScreen.storyboard */,
 				93715BE8257F9B66005A1151 /* Info.plist */,
-				93715BE0257F9B64005A1151 /* BirthdayTracker.xcdatamodeld */,
+				9303D31825820E7500B16E26 /* BirthdaysTableViewController.swift */,
+				93A2ABA52582661D00D4847E /* BirthdayTracker.xcdatamodeld */,
 			);
 			path = BirthdayTracker;
 			sourceTree = "<group>";
@@ -140,10 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93715BDC257F9B64005A1151 /* ViewController.swift in Sources */,
+				93A2ABA72582661D00D4847E /* BirthdayTracker.xcdatamodeld in Sources */,
+				9303D31925820E7500B16E26 /* BirthdaysTableViewController.swift in Sources */,
+				93715BDC257F9B64005A1151 /* AddBirthdayViewController.swift in Sources */,
 				93715BD8257F9B64005A1151 /* AppDelegate.swift in Sources */,
 				93715BDA257F9B64005A1151 /* SceneDelegate.swift in Sources */,
-				93715BE2257F9B64005A1151 /* BirthdayTracker.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,12 +351,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		93715BE0257F9B64005A1151 /* BirthdayTracker.xcdatamodeld */ = {
+		93A2ABA52582661D00D4847E /* BirthdayTracker.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				93715BE1257F9B64005A1151 /* BirthdayTracker.xcdatamodel */,
+				93A2ABA62582661D00D4847E /* BirthdayTracker.xcdatamodel */,
 			);
-			currentVersion = 93715BE1257F9B64005A1151 /* BirthdayTracker.xcdatamodel */;
+			currentVersion = 93A2ABA62582661D00D4847E /* BirthdayTracker.xcdatamodel */;
 			path = BirthdayTracker.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
